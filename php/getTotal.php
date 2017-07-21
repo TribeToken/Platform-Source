@@ -7,8 +7,8 @@ function getRaisedAmount($projectid){
 //Database Configs
 $servername = "localhost"; //server name or ip
 $username = "root"; //database user
-$password = ""; // database pass
-$dbname = "ttplat"; //database name	
+$password = "toor"; // database pass
+$dbname = "tribe_token_platform"; //database name	
 // Create connection to database
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection has been successfull
