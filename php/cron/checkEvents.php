@@ -16,8 +16,8 @@ if ($conn->connect_error) {
 $block = file_get_contents("block");
 
 //set variables for the Etherscan API ( CURRENTLY TESTNET ONLY)
-$APIkey = "JUMSXTTHYTHF16CIZD3EHPXHZHRRBWHKTJ";
-$CONTRACTaddress = "0xB22475D49b861b0b6a6C9d55FEaC054aF08E401D";
+$APIkey = "API KEY HERE";
+$CONTRACTaddress = "CONTRACT ADDRESS HERE";
 $url = "https://ropsten.etherscan.io/api?module=logs&action=getLogs&fromBlock=379224&toBlock=latest&address=". $CONTRACTaddress ."&apikey=" . $APIkey;
 // Call the Etherscan API
 $data = file_get_contents($url);
